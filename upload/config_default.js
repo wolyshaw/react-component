@@ -1,4 +1,5 @@
-export default const config {
+const config = {
 	AccessKey: '',
 	SecretKey: ''
 }
+export default config
