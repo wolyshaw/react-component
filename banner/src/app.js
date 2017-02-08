@@ -25,7 +25,7 @@ const testData = [
 	}
 ]
 
-const App = (props) => {
+const App = props => {
 	return (
 		<div className="banner-wrap">
 			<Banner list={testData}/>

@@ -7,8 +7,7 @@ module.exports = {
   entry: ['./index.js', hotMiddlewareScript],
   output: {
     filename: 'index.min.js',
-    path: path.join(__dirname, 'dist'),
-    publicPath: publicPath
+    path: path.join(__dirname, 'dist')
   },
   module: {
     loaders: [

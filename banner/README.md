@@ -14,3 +14,5 @@ import Banner from './banner'
 ```
 npm run dev
 ```
+- 在线演示(可能不是最新的)
+[shaw.click/react-banner](http://shaw.click/react-banner/)
