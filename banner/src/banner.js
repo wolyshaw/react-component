@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component, propTypes} from 'react'
 import {render} from 'react-dom'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
@@ -18,6 +18,12 @@ const BannerBar = props => {
 			}
 		</div>
 	)
+}
+
+BannerBar.propTypes = {
+	limit: React.PropTypes.number.isRequired,
+	active: React.PropTypes.number.isRequired,
+	setActive: React.PropTypes.func.isRequired
 }
 
 class Banner extends Component {
@@ -49,6 +55,10 @@ class Banner extends Component {
 			</div>
 		)
 	}
+}
+
+Banner.propTypes = {
+	list: React.PropTypes.array.isRequired
 }
 
 export default Banner

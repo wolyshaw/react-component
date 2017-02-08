@@ -1,6 +1,5 @@
 import React from 'react'
 import {render} from 'react-dom'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import Banner from './banner'
 
 const testData = [
@@ -29,7 +28,7 @@ const testData = [
 const App = (props) => {
 	return (
 		<div className="banner-wrap">
-			<Banner list={testData} active={3} enterTime={500} leaveTime={300}/>
+			<Banner list={testData}/>
 		</div>
 	)
 }
